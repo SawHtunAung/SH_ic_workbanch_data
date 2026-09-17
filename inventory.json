@@ -1,0 +1,25 @@
+  {
+    "part_number": "BQ24725A",
+    "price_mmk": 15000,
+    "in_stock": true,
+    "quantity_available": 12,
+    "bin_location": "A-03",
+    "last_updated": "2026-09-17 10:00"
+  },
+  {
+    "part_number": "BQ24735",
+    "price_mmk": 20000,
+    "in_stock": false,
+    "quantity_available": 0,
+    "bin_location": "A-04",
+    "last_updated": "2026-09-17 10:00"
+  },
+  {
+    "part_number": "ISL6262",
+    "price_mmk": 20000,
+    "in_stock": true,
+    "quantity_available": 5,
+    "bin_location": "B-11",
+    "last_updated": "2026-09-17 10:00"
+  }
+]
