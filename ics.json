@@ -1,0 +1,66 @@
+{
+  "ics": [
+    {
+      "part_number": "BQ24780S",
+      "manufacturer": "Texas Instruments",
+      "category": "Battery Charger IC",
+      "package": "QFN20",
+      "description": "Example new IC added via GitHub sync - replace with real data.",
+      "pins": [
+        {
+          "number": 1,
+          "name": "VCC",
+          "side": "top",
+          "position_index": 0,
+          "category": "power",
+          "voltage_range": {"min_v": 4.5, "max_v": 5.5, "nominal_v": 5.0},
+          "ground_resistance_ohm": "N/A",
+          "description": "Logic supply."
+        },
+        {
+          "number": 2,
+          "name": "ACOK",
+          "side": "top",
+          "position_index": 1,
+          "category": "control",
+          "voltage_range": {"min_v": 2.4, "max_v": 5.5, "nominal_v": null},
+          "ground_resistance_ohm": "High-Z when AC present",
+          "description": "AC adapter presence indicator."
+        }
+      ],
+      "diagnostic_rules": [
+        {
+          "id": "bq24780s_acok_low",
+          "condition": "ACOK < 2.0",
+          "root_cause": "ACOK low - check AC adapter path.",
+          "severity": "critical",
+          "recommended_action": "Verify adapter output voltage."
+        }
+      ],
+      "datasheet_url": "https://www.ti.com/product/BQ24780S",
+      "version": 1
+    },
+    {
+      "part_number": "RT8205",
+      "manufacturer": "Richtek",
+      "category": "PWM Controller",
+      "package": "QFN16",
+      "description": "Second example IC - shows the file can hold many entries.",
+      "pins": [
+        {
+          "number": 1,
+          "name": "VDD",
+          "side": "top",
+          "position_index": 0,
+          "category": "power",
+          "voltage_range": {"min_v": 4.5, "max_v": 5.5, "nominal_v": 5.0},
+          "ground_resistance_ohm": "N/A",
+          "description": "Logic supply."
+        }
+      ],
+      "diagnostic_rules": [],
+      "datasheet_url": "",
+      "version": 1
+    }
+  ]
+}
